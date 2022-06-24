@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="chatbot songrequest​, SIGA O PASSO A PASSO EM ORDEM">
+    <meta name="description" content="">
+    <title>SONGREQUEST</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+    <link rel="stylesheet" href="SONGREQUEST.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="comfy.js"></script>
+
+  </head>
+
+  <script>
+  $(window).on('load', function(){
+    if (localStorage.getItem('twuser') !== null) { 
+      console.log("hello");
+      $('#loading').show();
+      $('#u-section-1').hide();
+      $('#u-section-2').hide();
+      $('#u-section-3').hide();
+      $('#u-section-4').hide();
+      $('#u-section-5').hide();
+      $('#u-section-6').hide();
+      $('#footer').hide();
+
+    } else {
+      $('#loading').hide();
+    }
+    
+  });
+  </script>
+  <body style="background-color: #7954A1;" data-home-page="SONGREQUEST.html" data-home-page-title="SONGREQUEST" class="u-body u-xl-mode">
+    <section id="loading" class="u-section-7" >
+      <div class="u-align-left u-clearfix u-sheet-7">
+        <img class="u-image u-image-round u-radius-10 u-image-7" src="images/-min1.jpg" data-image-width="1200" data-image-height="1048">
+        <h3 class="u-align-center u-text u-text-default u-text-7">
+          <span style="font-size: 3rem;">SISTEMA FUNCIONANDO</span>
+          <br>Mantenha esta pagina aberta
+        </h3>
+      </div>
+    </section>
+
+    <section id="u-section-1" class="u-align-left u-clearfix u-image u-shading u-section-1" src="" data-image-width="1280" data-image-height="720">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h1 class="u-text u-text-default u-title u-text-1">chatbot songrequest </h1>
+        <p class="u-large-text u-text u-text-variant u-text-2">Configure o seu bot pra receber pedidos de musica por pontos do canal.<br>Siga o passo a passo abaixo para configurar o sistema, será necessario configurar apenas uma vez por navegador, se abrir esta pagina em um navegador diferente ,será preciso configurar novamente.<br>Para o sistema permancer funcionando será necessário manter esta página aberta em seu navegador enquanto estiver com a live aberta.
+        </p>
+        <a href="SONGREQUEST.html#u-section-2" data-page-id="220513253" class="u-btn u-button-style u-palette-2-base u-btn-1">Iniciar CONFIGURAÇÃO</a>
+      </div>
+    </section>
+    <section id="u-section-2"class="u-align-center u-clearfix u-image u-shading u-section-2" src="" data-image-width="150" data-image-height="97">
+      <div class="u-align-center u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-title u-text-1">PEDIDO DE MUSICA</h1>
+        <p class="u-text u-text-2">No seu bot, configure para que somente moderadores consigam efetuar o pedido de musica, isso fará que só você e seus mods consigam efetuar o pedido já que o sistema captura o nome ou link da musica na recompensa e digita junto com !sr e envia no chat como se fosse você.</p>
+        <a href="SONGREQUEST.html#u-section-3" data-page-id="220513253" class="u-btn u-button-style u-palette-2-base u-btn-1">PRÓXIMA ETAPA</a>
+      </div>
+    </section>
+    <section id="u-section-3" class="u-align-center u-clearfix u-image u-shading u-section-3" src="" data-image-width="150" data-image-height="97">
+      <div class="u-align-center u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-title u-text-1"> SUA KEY OAUTH</h1>
+        <p class="u-text u-text-2"> Clique no botão abaixo para ser direcionado até a pagina para obter o seu codigo oauth do seu canal da twitch. <br>Será necesário autorizar o login com a sua conta da twitch.<br>Copie apenas o codigo, remova o "oauth:"<br>
+          <span style="font-size: 1.125rem;">(Guarde esse codigo em um arquivo de texto, ele será utilizado logo abaixo)</span>
+        </p>
+        <a href="https://twitchapps.com/tmi/" class="u-align-center u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1" target="_blank">OBTER SEU CODIGO OAUTH</a>
+        <a href="SONGREQUEST.html#u-section-4" data-page-id="220513253" class="u-btn u-button-style u-palette-2-base u-btn-2">PRÓXIMA ETAPA</a>
+      </div>
+    </section>
+    <section id="u-section-4" class="u-align-center u-clearfix u-image u-shading u-section-4" src="" data-image-width="150" data-image-height="97">
+      <div class="u-align-center u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-title u-text-1">Crie uma recompensa personalizada</h1>
+        <p class="u-text u-text-2"> No seu canal da twitch crie uma recompensa personalizada na qual o usuário irá resgatar para pedir a musica,marque a caixa de diálogo para que seja necessário o usuário inserir um texto para efetuar o pedido , é por lá que será feito o pedido de musica.<br>(no campo de texto coloque algo como "Insira o nome ou link da musica").
+        </p>
+        <a href="SONGREQUEST.html#u-section-5" data-page-id="220513253" class="u-btn u-button-style u-palette-2-base u-btn-1">PRÓXIMA ETAPA</a>
+      </div>
+    </section>
+    <section id="u-section-5" class="u-align-center u-clearfix u-image u-shading u-section-5" src="" data-image-width="150" data-image-height="97">
+      <div class="u-align-center u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-title u-text-1">Codigo da recompensa</h1>
+        <p class="u-text u-text-2">Depois de criar a recompensa abra a página abaixo e insira o seu canal da twitch no final do endereço URL ,ex. =&nbsp;<br>https://www.instafluff.tv/TwitchCustomRewardID/?channel=SEU CANAL AQUI<br>Com a página ainda aberta resgate a recompensa para o pedido de que você acabou de criar e o codigo da recompensa será exibido no campo "last used reward ID" ,Guarde esse codigo.
+        </p>
+        <a href="https://www.instafluff.tv/TwitchCustomRewardID/?channel=" class="u-align-center u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1" target="_blank">OBTER reward id</a>
+        <a href="SONGREQUEST.html#u-section-6" data-page-id="220513253" class="u-btn u-button-style u-palette-2-base u-btn-2">PRÓXIMA ETAPA</a>
+      </div>
+    </section>
+    <section id="u-section-6" class="u-align-center u-clearfix u-image u-shading u-section-6" src="" data-image-width="150" data-image-height="97">
+      <div class="u-align-center u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-title u-text-1"> PREENCHA O FORMULÁRIO</h1>
+        <p class="u-text u-text-2"> Insiria o nome do seu canal da twitch (diferencia maiúscula e minuscula), codigo oauth e o reward id nos campos abaixo para finalizar a configuração do seu song request</p>
+        <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+          <div class="u-gutter-0 u-layout">
+            <div class="u-layout-row">
+              <div class="u-align-center u-container-style u-grey-10 u-layout-cell u-opacity u-opacity-55 u-size-60 u-layout-cell-1">
+                <div class="u-border-5 u-border-custom-color-1 u-container-layout u-valign-middle u-container-layout-1">
+                  <div class="u-form u-form-1">
+                    <form action="#" method="POST" class="u-clearfix u-form-spacing-50 u-form-vertical u-inner-form" style="padding: 0px;" source="custom" name="form">
+                      <div class="u-form-group u-label-top u-form-group-1">
+                        <label for="text-ba26" class="u-form-control-hidden u-label"></label>
+                        <input type="text" placeholder="Canal da twitch (cAsE sEnSiTiVe)" id="twchannel" name="twchannel" class="u-border-2 u-border-white u-input u-input-rectangle u-radius-12 u-white u-input-1" required="required">
+                      </div>
+                      <div class="u-form-group u-form-name u-label-top u-form-group-2">
+                        <label for="name-30a4" class="u-form-control-hidden u-label" wfd-invisible="true"></label>
+                        <input type="text" placeholder="OAUTH" id="OAUTH" name="OAUTH" class="u-border-2 u-border-white u-input u-input-rectangle u-radius-12 u-white u-input-2" required="">
+                      </div>
+                      <div class="u-form-email u-form-group u-label-top u-form-group-3">
+                        <label for="email-cd2c" class="u-form-control-hidden u-label" wfd-invisible="true"></label>
+                        <input type="text" id="REWARDID" name="REWARD ID" class="u-border-2 u-border-white u-input u-input-rectangle u-radius-12 u-white u-input-3" required="" placeholder="REWARD ID">
+                      </div>
+                      <div class="u-align-center u-form-group u-form-submit u-label-top u-form-group-4">
+                        <input type="submit" value="submit" class="u-form-control-hidden" wfd-invisible="true">
+                        <button onclick="showDataFile()" class="u-active-white u-black u-btn u-btn-round u-btn-submit u-button-style u-hover-custom-color-1 u-radius-11 u-text-active-black u-text-hover-black u-btn-1">salvar configuração<br>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <footer  id="footer" class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-f00a"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">Sistema criado por ​twitch.tv/oceanmud (Comfy.js)<br>Tutorial e pagina de configuração por twitch.tv/gggambet
+        </p>
+      </div></footer>
+      <script type="text/javascript">
+
+        function showDataFile()
+        {
+            var twchannel = document.getElementById("twchannel").value;
+            var OAUTH = document.getElementById("OAUTH").value;
+            var REWARDID = document.getElementById("REWARDID").value;
+  
+            localStorage.setItem("twuser",twchannel);
+            localStorage.setItem("OAUTH",OAUTH);
+            localStorage.setItem("rid",REWARDID);
+        }
+        
+    </script>
+    <script>
+      var TWITCHUSER = localStorage.getItem("twuser");
+      var OAUTH = localStorage.getItem("OAUTH");
+      var rid= localStorage.getItem("rid");
+        ComfyJS.onCommand = ( user, command, message, flags, extra ) => {
+          if( flags.customReward &&
+                  extra.customRewardId === rid ) {
+    
+          ComfyJS.Say( "!sr " + message );
+            console.log('do something')
+          }
+        };
+    
+    
+    
+        ComfyJS.onChat = ( user, message, flags, self, extra ) => {
+          console.log('do something')
+          if( flags.customReward &&
+                  extra.customRewardId === rid ) {
+    
+              ComfyJS.Say( "!sr " + message );
+            }
+    
+    };
+    
+        ComfyJS.Init( TWITCHUSER, OAUTH );
+    
+    
+      </script>
+  </body>
+</html>
