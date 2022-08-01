@@ -12,5 +12,5 @@ If you want i can made a english page.
 
 REMEMBER - FOR THE SISTEM STIL WORKS , THE INDEX PAGE MUST REMAIN OPEN
 
-Discord- GGGAMBET#8307
+Discord- GGTEC#8307
 
